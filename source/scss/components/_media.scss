@@ -2,6 +2,9 @@
 .slider {
     @include size-854px;
     }
+    .slides {
+        left: -600px;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -12,6 +15,11 @@
 .slide {
     @include size-650px;   
     }
+
+    .slides {
+        left: -400px;
+    }
+    
 }
 
 @media only screen and (max-width: 450px) {
@@ -22,6 +30,10 @@
 .slide {
     @include size-450px; 
     }
+
+    .slides {
+        left: -300px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -31,5 +43,9 @@
         
 .slide {
     @include size-320px;   
+    }
+
+    .slides {
+        left: -250px;
     }
 }
