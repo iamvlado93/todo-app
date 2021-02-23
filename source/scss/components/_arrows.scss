@@ -1,0 +1,22 @@
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f3f3f3;
+    font-size: 4rem;
+    z-index: 99;
+}
+  
+.next {
+    right: 3rem;
+}
+  
+.prev {
+    left: 3rem;
+}
+  
+.prev:active,
+.next:active {
+    color: $lightGrey;
+}
